@@ -2,6 +2,7 @@
 #Description: Computing the mean of a fasting blood sugar (FBS) dataset and using it as a dynamic threshold to filter out upper values.
 #Application: Clinical screening to identify patients with glucose levels above the cohort average.
 #________________________________________________________________________________________________________________
+import numpy as np
 
 fblood_sugar_dataset = [95, 120, 88, 140, 105, 110, 92, 130, 85, 115]
 dataset_numpy = np.array(fblood_sugar_dataset)
