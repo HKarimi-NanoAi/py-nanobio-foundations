@@ -17,4 +17,4 @@ critical_situation = (df_patients['Age'] > 60) & (df_patients['CRP_Level'] > 10)
 filtered_patients = df_patients[critical_situation]
 patients_id = list(filtered_patients['Patient_ID'])
 
-print(f'Patients with critical situations:\n {patients_id}')
+print(f'Patients matching high-risk criteria (Age > 60 & CRP > 10):\n {patients_id}')
