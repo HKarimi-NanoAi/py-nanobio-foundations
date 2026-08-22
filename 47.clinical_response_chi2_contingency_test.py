@@ -5,8 +5,8 @@
 import numpy as np
 from scipy import stats
 
-#raw1 = 40: responded, 10:not responded
-#raw2 = 20:responded, 30: not responded
+#row1 = 40: responded, 10:not responded
+#row2 = 20:responded, 30: not responded
 clinical_responses = np.array([
     [40, 10],
     [20, 30]
